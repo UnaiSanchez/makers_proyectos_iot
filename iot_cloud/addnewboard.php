@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title>Add new board</title>
     <title>Home</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/bulma.css">
@@ -31,23 +32,29 @@
     </nav>
     <br>
     <div class="container">
-        <div class="has-text-centered">
-            <a href="addnewboard.php" class="button is-danger is-large is-rounded is-centered">
-                <span class="icon">
-                    <i class="fas fa-plus"></i>
-                </span>
-                <span>Añadir placa</span>    
-            </a>
+        <div class="columns is-centered">
+            <div class="column is-half is-narrow">
+                <div class="box">
+                    <form>
+                        <div class="field">
+                            <label for="" class="label">Nomre de la placa</label>
+                            <div class="control">
+                                <input type="text" class="input" placeholder="Nombre">
+                            </div>
+                        </div>
+                    </form>
+                    <br>
+                    <form>
+                        <div class="field">
+                            <label for="" class="label">Descripción de la placa</label>
+                            <div class="control">
+                                <input type="text" class="input" placeholder="Pequeña descripción">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-
-
-
-
-
-
-
-
     </div>
-
 </body>
 </html>
